@@ -18,21 +18,22 @@ body {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
-  }
+}
+  
   100% {
     opacity: 1;
-  }
+}
 }
 
 header {
   position: fixed;
   width: 100%;
   z-index: 10;
-  }
+}
 
-  .logo img{
+  .logo img {
   width: 100px;
-  }
+}
 
 nav ul .nav-item:last-child {
   color: #ec5242;
@@ -46,17 +47,17 @@ nav ul li a.nav-link {
 nav ul li a.nav-link:hover,
 nav ul li a.nav-link:active {
   color: #ec5242 !important;
-  }
+}
 
   nav .nav-top {
   background-color: #444 !important;
   font-size: 14px !important;
-  }
+}
 
 nav {
   background: white !important;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
+}
 
 .hero {
   background-color: #d3d3d3;
@@ -64,17 +65,17 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
 
 .hero .h1 {
   color: #ec5242;
-  }
+}
 
   .hero .description-header {
   position: relative;
   overflow: hidden;
-  }
+}
   
   .hero .description-header h1 {
   display: inline-block;
@@ -92,13 +93,13 @@ nav {
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  }
+}
   
   .description {
   border: 5px solid white;
   background: rgba(211, 211, 211, 0.5);
   width: 100%;
-  }
+}
 
   .description-about {
   border: 1px solid #e5e5e5;
@@ -107,25 +108,25 @@ nav {
   word-wrap: break-word;
   overflow: hidden;
   max-height: 295px;
-  }
+}
 
   .description-subtitle h2 {
   font-family: "COCOGOOSE Regular", sans-serif;
   font-size: 1.5rem;
   font-weight: 800 !important;
   color: #444;
-  }
+}
 
   .description-subtitle p {
   font-size: 1rem;
   color: #444;
   font-weight: 500;
-  }
+}
 
   .main-program {
   background-color: #272a31;
   background-image: url(./img/program-pattern.png);
-  }
+}
 
   .section-title {
   display: block;
@@ -133,7 +134,7 @@ nav {
   position: relative;
   font-weight: normal;
   margin-bottom: 3rem;
-  }
+}
   
   .section-title::after {
   position: absolute;
@@ -144,13 +145,13 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   background-color: #ec5242;
-  }
+}
 
   .main-program .main-program-items {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0.5rem;
-  }
+}
 
   .main-program .main-program-items .main-program-item {
   background: rgba(255, 255, 255, 0.1);
@@ -163,15 +164,15 @@ nav {
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  }
+}
   .main-program .main-program-items .main-program-item:hover {
   transform: scale(0.9);
-  }
+}
 
   .main-program .main-program-items .main-program-item h4 {
   font-size: 13px;
   color: #ec5242;
-  }
+}
 
   .main-program .main-program-items .main-program-item p {
   font-size: 14px;
@@ -179,7 +180,7 @@ nav {
   hyphens: auto;
   -webkit-hyphens: auto;
   word-spacing: -0.05em;
-  }
+}
 
   .main-program a {
   padding: 1.5rem 1rem;
@@ -188,35 +189,35 @@ nav {
   content: "Join Javascript Developer Conference";
   text-decoration: none;
   transition: 0.5s;
-  }
+}
 
   .main-program a:hover,
   .main-program a:active {
   background-color: #fff;
   color: #ec5242;
-  }
+}
 
   .speakers-list {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
-  }
+}
 
   .speakers-list .speaker {
   display: grid;
   grid-template-columns: 35% 65%;
-  }
+}
 
   .speakers-list .speaker img {
   image-rendering: crisp-edges;
   width: 100%;
   padding-right: 1.5rem;
-  }
+}
 
   .speakers-list .speaker .name h4 {
   margin: 0;
-  }
+}
 
   .speakers-list .speaker .role {
   margin: 0.25rem 0 1.5rem;
@@ -224,7 +225,7 @@ nav {
   color: #ec5242;
   display: block;
   position: relative;
-  }
+}
 
   .speakers-list .speaker .role::after {
   position: absolute;
@@ -234,7 +235,7 @@ nav {
   width: 1.5rem;
   content: "";
   background: #ec5242;
-  }
+}
 
   .speakers-list .speaker .bio {
   display: block;
@@ -242,32 +243,32 @@ nav {
   word-wrap: break-word;
   overflow: hidden;
   max-height: 100px;
-  }
+}
 
   .partners {
   background-color: #444;
   width: 100%;
-  }
+}
 
   .partner-logo img {
   image-rendering: optimizeQuality;
   width: 300px;
   cursor: pointer;
   transition: 0.5s;
-  }
+}
 
   .partner-logo img:hover {
     transform: scale(0.8);
-  }
+}
 
   footer {
   background-color: #f2f2f2;
   font-size: 14px;
-  }
+}
 
   .showcase-logo img {
   width: 40% !important;
-  }
+}
 
   .previous-conferences .year1 {
   background-color: #ec5242;
@@ -276,7 +277,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   height: 300px;
-  }
+}
 
   .previous-conferences .year2 {
   background-color: #ec5242;
@@ -285,7 +286,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   height: 300px;
-  }
+}
 
   .previous-conferences .overlay,
   .previous-conferences .overlay {
@@ -297,68 +298,76 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  }
+}
 
   .previous-conferences .overlay span {
   color: #fff;
   display: block;
   font-weight: 700;
-  }
+}
 
   .previous-conferences .overlay span.year {
   font-size: 3rem;
-  }
+}
 
-  @media only screen and (min-width: 769px){
+  @media only screen and (min-width: 769px) {
   .hero {
   background-color: #d3d3d3;
   background-image: url(./img/main_big.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
+
   .hero .description-header h1 {
   font-size: 4rem !important;
   font-weight: 800 !important;
   width: 70% !important;
   line-height: 4rem !important;
-  }
+}
+
   .hero .description {
   width: 50%;
-  }
+}
+
   .description-subtitle h2 {
   width: 50%;
   font-size: 2rem;
   padding: 5px;
-  }
+}
+
   .description-subtitle p {
   font-weight: 600;
-  }
+}
+
   .main-program .main-program-item {
   grid-template-columns: 1fr !important;
   text-align: center !important;
   padding: 3rem 1.5rem !important;
-  }
+}
+
   .main-program .main-program-item p {
   text-align: center;
-  }
+}
+
   .main-program .main-program-item h4 {
   font-size: 20px !important;
-  }
+}
   
   .main-program .main-program-items {
   display: grid !important;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
-  }
+}
+
   .speakers-list {
   grid-template-columns: 1fr 1fr !important;
   grid-row-gap: 5rem !important;
-  }
+}
 
   .partner-lists {
   display: grid !important;
   width: 100% !important;
   grid-template-columns: repeat(2, 1fr) !important;
   place-items: center !important;
-  }
-  }
+}
+}
