@@ -256,7 +256,7 @@ nav {
 }
 
 .partners {
-  background-color: #444;
+  background-color: rgb(119, 118, 118);
   width: 100%;
 }
 
@@ -265,7 +265,7 @@ nav {
 }
 
 footer {
-  background-color: #f2f2f2;
+  background-color: #fff;
   font-size: 14px;
 }
 
@@ -367,5 +367,10 @@ footer {
     width: 100% !important;
     grid-template-columns: repeat(2, 1fr) !important;
     place-items: center !important;
+  }
+
+  .about-footer {
+    background-color: #444 !important;
+    color: #fff !important;
   }
 }

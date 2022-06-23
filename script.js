@@ -40,7 +40,7 @@ const speakerData = [
   ]
 
   document.getElementById('speakersList').innerHTML =  speakerData.map(speaker => `
-  <div class="speaker">
+  <article class="speaker">
                         <div class="speaker-image">
                           <img src="./img/speakers/${speaker.img}" alt="${speaker.name}"/>
                         </div>
@@ -53,7 +53,7 @@ const speakerData = [
                           ${speaker.bio}
                           </div>
                         </div>
-                      </div>
+                      </article>
   
   ` ).join('')
   
