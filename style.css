@@ -67,20 +67,18 @@ nav {
   background-size: cover;
 }
 
-
 .hero .h1 {
   color: #ec5242;
 }
 
-  .hero .description-header {
+.hero .description-header {
   position: relative;
   overflow: hidden;
 }
-  
+
 .hero .description-header h1 {
   display: inline-block;
   color: rgba(236, 83, 66, 0.65);
-  font-weight: normal;
   font-size: 40px;
   font-weight: 700;
   line-height: 3rem !important;
@@ -94,7 +92,7 @@ nav {
   -moz-background-clip: text;
   background-clip: text;
 }
-  
+
 .description {
   border: 5px solid white;
   background: rgba(211, 211, 211, 0.5);
@@ -135,7 +133,7 @@ nav {
   font-weight: normal;
   margin-bottom: 3rem;
 }
-  
+
 .section-title::after {
   position: absolute;
   content: "";
@@ -165,6 +163,7 @@ nav {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
+
 .main-program .main-program-items .main-program-item:hover {
   transform: scale(0.9);
 }
@@ -209,6 +208,17 @@ nav {
   grid-template-columns: 35% 65%;
 }
 
+.partner-logo img {
+  image-rendering: optimizeQuality;
+  width: 300px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.showcase-logo img {
+  width: 40% !important;
+}
+
 .speakers-list .speaker img {
   image-rendering: crisp-edges;
   width: 100%;
@@ -250,24 +260,13 @@ nav {
   width: 100%;
 }
 
-.partner-logo img {
-  image-rendering: optimizeQuality;
-  width: 300px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
 .partner-logo img:hover {
-    transform: scale(0.8);
+  transform: scale(0.8);
 }
 
 footer {
   background-color: #f2f2f2;
   font-size: 14px;
-}
-
-.showcase-logo img {
-  width: 40% !important;
 }
 
 .previous-conferences .year1 {
@@ -288,7 +287,6 @@ footer {
   height: 300px;
 }
 
-.previous-conferences .overlay,
 .previous-conferences .overlay {
   position: absolute;
   width: 100%;
@@ -353,7 +351,7 @@ footer {
   .main-program .main-program-item h4 {
     font-size: 20px !important;
   }
-  
+
   .main-program .main-program-items {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
@@ -362,12 +360,12 @@ footer {
   .speakers-list {
     grid-template-columns: 1fr 1fr !important;
     grid-row-gap: 5rem !important;
-}
+  }
 
   .partner-lists {
     display: grid !important;
     width: 100% !important;
     grid-template-columns: repeat(2, 1fr) !important;
     place-items: center !important;
-}
+  }
 }
