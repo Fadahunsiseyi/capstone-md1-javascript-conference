@@ -18,11 +18,11 @@ body {
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
-}
-  
+  }
+
   100% {
     opacity: 1;
-}
+  }
 }
 
 header {
@@ -31,7 +31,7 @@ header {
   z-index: 10;
 }
 
-  .logo img {
+.logo img {
   width: 100px;
 }
 
@@ -49,7 +49,7 @@ nav ul li a.nav-link:active {
   color: #ec5242 !important;
 }
 
-  nav .nav-top {
+nav .nav-top {
   background-color: #444 !important;
   font-size: 14px !important;
 }
@@ -77,7 +77,7 @@ nav {
   overflow: hidden;
 }
   
-  .hero .description-header h1 {
+.hero .description-header h1 {
   display: inline-block;
   color: rgba(236, 83, 66, 0.65);
   font-weight: normal;
@@ -95,13 +95,13 @@ nav {
   background-clip: text;
 }
   
-  .description {
+.description {
   border: 5px solid white;
   background: rgba(211, 211, 211, 0.5);
   width: 100%;
 }
 
-  .description-about {
+.description-about {
   border: 1px solid #e5e5e5;
   background: white;
   text-overflow: ellipsis;
@@ -110,25 +110,25 @@ nav {
   max-height: 295px;
 }
 
-  .description-subtitle h2 {
+.description-subtitle h2 {
   font-family: "COCOGOOSE Regular", sans-serif;
   font-size: 1.5rem;
   font-weight: 800 !important;
   color: #444;
 }
 
-  .description-subtitle p {
+.description-subtitle p {
   font-size: 1rem;
   color: #444;
   font-weight: 500;
 }
 
-  .main-program {
+.main-program {
   background-color: #272a31;
   background-image: url(./img/program-pattern.png);
 }
 
-  .section-title {
+.section-title {
   display: block;
   text-align: center;
   position: relative;
@@ -136,7 +136,7 @@ nav {
   margin-bottom: 3rem;
 }
   
-  .section-title::after {
+.section-title::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -147,13 +147,13 @@ nav {
   background-color: #ec5242;
 }
 
-  .main-program .main-program-items {
+.main-program .main-program-items {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 0.5rem;
 }
 
-  .main-program .main-program-items .main-program-item {
+.main-program .main-program-items .main-program-item {
   background: rgba(255, 255, 255, 0.1);
   display: grid;
   grid-template-columns: 1fr 1fr 5fr;
@@ -165,16 +165,16 @@ nav {
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-  .main-program .main-program-items .main-program-item:hover {
+.main-program .main-program-items .main-program-item:hover {
   transform: scale(0.9);
 }
 
-  .main-program .main-program-items .main-program-item h4 {
+.main-program .main-program-items .main-program-item h4 {
   font-size: 13px;
   color: #ec5242;
 }
 
-  .main-program .main-program-items .main-program-item p {
+.main-program .main-program-items .main-program-item p {
   font-size: 14px;
   text-align: justify;
   hyphens: auto;
@@ -182,7 +182,7 @@ nav {
   word-spacing: -0.05em;
 }
 
-  .main-program a {
+.main-program a {
   padding: 1.5rem 1rem;
   background: #ec5242;
   color: #fff;
@@ -191,35 +191,35 @@ nav {
   transition: 0.5s;
 }
 
-  .main-program a:hover,
-  .main-program a:active {
+.main-program a:hover,
+.main-program a:active {
   background-color: #fff;
   color: #ec5242;
 }
 
-  .speakers-list {
+.speakers-list {
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
 }
 
-  .speakers-list .speaker {
+.speakers-list .speaker {
   display: grid;
   grid-template-columns: 35% 65%;
 }
 
-  .speakers-list .speaker img {
+.speakers-list .speaker img {
   image-rendering: crisp-edges;
   width: 100%;
   padding-right: 1.5rem;
 }
 
-  .speakers-list .speaker .name h4 {
+.speakers-list .speaker .name h4 {
   margin: 0;
 }
 
-  .speakers-list .speaker .role {
+.speakers-list .speaker .role {
   margin: 0.25rem 0 1.5rem;
   font-style: italic;
   color: #ec5242;
@@ -227,7 +227,7 @@ nav {
   position: relative;
 }
 
-  .speakers-list .speaker .role::after {
+.speakers-list .speaker .role::after {
   position: absolute;
   bottom: -25%;
   left: 0;
@@ -237,7 +237,7 @@ nav {
   background: #ec5242;
 }
 
-  .speakers-list .speaker .bio {
+.speakers-list .speaker .bio {
   display: block;
   text-overflow: ellipsis;
   word-wrap: break-word;
@@ -245,32 +245,32 @@ nav {
   max-height: 100px;
 }
 
-  .partners {
+.partners {
   background-color: #444;
   width: 100%;
 }
 
-  .partner-logo img {
+.partner-logo img {
   image-rendering: optimizeQuality;
   width: 300px;
   cursor: pointer;
   transition: 0.5s;
 }
 
-  .partner-logo img:hover {
+.partner-logo img:hover {
     transform: scale(0.8);
 }
 
-  footer {
+footer {
   background-color: #f2f2f2;
   font-size: 14px;
 }
 
-  .showcase-logo img {
+.showcase-logo img {
   width: 40% !important;
 }
 
-  .previous-conferences .year1 {
+.previous-conferences .year1 {
   background-color: #ec5242;
   background-image: url(./img/past/bg1.jfif);
   background-size: cover;
@@ -279,7 +279,7 @@ nav {
   height: 300px;
 }
 
-  .previous-conferences .year2 {
+.previous-conferences .year2 {
   background-color: #ec5242;
   background-image: url(./img/past/bg2.jfif);
   background-size: cover;
@@ -288,8 +288,8 @@ nav {
   height: 300px;
 }
 
-  .previous-conferences .overlay,
-  .previous-conferences .overlay {
+.previous-conferences .overlay,
+.previous-conferences .overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -300,74 +300,74 @@ nav {
   flex-direction: column;
 }
 
-  .previous-conferences .overlay span {
+.previous-conferences .overlay span {
   color: #fff;
   display: block;
   font-weight: 700;
 }
 
-  .previous-conferences .overlay span.year {
+.previous-conferences .overlay span.year {
   font-size: 3rem;
 }
 
-  @media only screen and (min-width: 769px) {
+@media only screen and (min-width: 769px) {
   .hero {
-  background-color: #d3d3d3;
-  background-image: url(./img/main_big.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    background-color: #d3d3d3;
+    background-image: url(./img/main_big.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   .hero .description-header h1 {
-  font-size: 4rem !important;
-  font-weight: 800 !important;
-  width: 70% !important;
-  line-height: 4rem !important;
-}
+    font-size: 4rem !important;
+    font-weight: 800 !important;
+    width: 70% !important;
+    line-height: 4rem !important;
+  }
 
   .hero .description {
-  width: 50%;
-}
+    width: 50%;
+  }
 
   .description-subtitle h2 {
-  width: 50%;
-  font-size: 2rem;
-  padding: 5px;
-}
+    width: 50%;
+    font-size: 2rem;
+    padding: 5px;
+  }
 
   .description-subtitle p {
-  font-weight: 600;
-}
+    font-weight: 600;
+  }
 
   .main-program .main-program-item {
-  grid-template-columns: 1fr !important;
-  text-align: center !important;
-  padding: 3rem 1.5rem !important;
-}
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+    padding: 3rem 1.5rem !important;
+  }
 
   .main-program .main-program-item p {
-  text-align: center;
-}
+    text-align: center;
+  }
 
   .main-program .main-program-item h4 {
-  font-size: 20px !important;
-}
+    font-size: 20px !important;
+  }
   
   .main-program .main-program-items {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
-}
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+  }
 
   .speakers-list {
-  grid-template-columns: 1fr 1fr !important;
-  grid-row-gap: 5rem !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-row-gap: 5rem !important;
 }
 
   .partner-lists {
-  display: grid !important;
-  width: 100% !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  place-items: center !important;
+    display: grid !important;
+    width: 100% !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    place-items: center !important;
 }
 }
